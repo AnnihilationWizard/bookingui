@@ -1,5 +1,7 @@
 import React from 'react'
 import './header.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBed, faCalendar, faPeopleGroup } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
     return (
@@ -14,7 +16,19 @@ const Header = () => {
                     Booking.com clone挑戰(為SamKo Demo使用不為盈利)
                 </p>
                 <div className='headerSearchBar'>
-                    SearchBar
+                    <div className='SearchBarItem'>
+                        <FontAwesomeIcon icon={faBed} />
+                        <input type="Search" placeholder='你要去哪裡?' className='SearchInput' />
+                    </div>
+                    <div className='SearchBarItem'>
+                        <FontAwesomeIcon icon={faCalendar} />
+                        <span className='SearchText'>09/05/2024-09/05/2024</span>
+                    </div>
+                    <div className='SearchBarItem'>
+                        <FontAwesomeIcon icon={faPeopleGroup} />
+                        <span className='SearchText'>3位成人，2位小孩，1間房</span>
+                    </div>
+                    <button className='SearchBarBtn'>搜尋</button>
                 </div>
             </div>
         </div>
