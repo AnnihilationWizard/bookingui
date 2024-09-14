@@ -36,13 +36,11 @@
   background-color: rgb(223, 130, 0);
   border: none;
   border-radius: 5px;
-
   svg {
     color: lightgray;
     font-size: 24px;
     margin-left: 10px;
   }
-
   input {
     border: none;
     outline: none;
@@ -50,11 +48,10 @@
     font-size: 16px;
     text-overflow: ellipsis;
   }
-
   .SearchBarItem:first-child {
-    width: calc(34% - 20px);
+    //第一個SearchBarItem
+    width: calc(34% - 20px); //加上這個，可以讓”你要去哪裡“縮小的比別人快
   }
-
   .SearchBarItem {
     height: 50px;
     width: 320px;
@@ -66,22 +63,64 @@
     background-color: #fff;
     border-radius: 2px;
     cursor: pointer;
-
-    .calender {
+    .calendar {
       position: absolute;
       top: 56px;
       border: 1px lightgray solid;
       box-shadow: 0px 0px 15px lightgray;
     }
   }
-
   .SearchBarBtn {
     border: none;
     margin: 0px 2px 0px 2px;
     width: 60px;
     height: 50px;
+    border-radius: 2px;
     background-color: var(--primary-color);
     color: white;
     cursor: pointer;
+  }
+}
+
+.ConditionsContainer {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: auto;
+  background-color: white;
+  box-shadow: 0px 0px 15px lightgray;
+  padding: 10px 40px;
+  cursor: default;
+  .condition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 60px;
+    p {
+      font-size: 14px;
+      color: gray;
+    }
+    .conditionCounter {
+      display: flex;
+      width: 100px;
+      justify-content: space-between;
+      align-items: center;
+      .conditionCounterButton {
+        width: 30px;
+        height: 30px;
+        border-radius: 2px;
+        color: var(--primary-color);
+        background-color: white;
+        border: 1px var(--primary-color) solid;
+        cursor: pointer;
+        &:hover {
+          background-color: rgba(53, 164, 127, 0.1);
+        }
+        &:disabled {
+          cursor: not-allowed;
+        }
+      }
+    }
   }
 }
