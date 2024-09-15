@@ -4,8 +4,8 @@ import './header.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // spell-checker: disable-next-line
 import { faBed, faCalendar, faPeopleGroup } from '@fortawesome/free-solid-svg-icons'
-import 'react-date-range/dist/styles.css';
-import 'react-date-range/dist/theme/default.css';
+import 'react-date-range/dist/styles.css'; // main style file
+import 'react-date-range/dist/theme/default.css'; // theme css file
 import * as locales from 'react-date-range/dist/locale';
 import { DateRange } from 'react-date-range';
 import format from 'date-fns/format';
@@ -14,6 +14,7 @@ const Header = () => {
     const [destination, setDestination] = useState("");
     const [openConditions, setOpenConditions] = useState(false);
     const [openCalendar, setOpenCalendar] = useState(false);
+
     const [dates, setDates] = useState([
         {
             startDate: new Date(),
@@ -69,7 +70,7 @@ const Header = () => {
                             className="calendar"
                             ranges={dates}
                             minDate={new Date()}
-                            locale={locales['zhTW']}
+                        //locale={locales['zhTW']}
                         />}
                     </div>
                     <div className='SearchBarItem'>
