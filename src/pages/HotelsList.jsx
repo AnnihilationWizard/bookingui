@@ -8,24 +8,31 @@ import * as locales from 'react-date-range/dist/locale';
 import { useLocation } from 'react-router-dom'
 
 const HotelList = () => {
+    const locationSearchBarData = useLocation();
+    const [openConditions, setOpenConditions] = useState(false);
     const [openCalendar, setOpenCalendar] = useState(false);
-    const [destination, setDestination] = useState("");
+    const [destination, setDestination] = useState(locationSearchBarData.state?.destination);
+    const [dates, setDates] = useState(locationSearchBarData.state?.dates);
+    const [conditions, setConditions] = useState(locationSearchBarData.state?.conditions);
 
-    const [dates, setDates] = useState([
-        {
-            startDate: new Date(),
-            endDate: new Date(),
-            key: 'selection',
-        }
-    ]);
 
-    const [conditions, setConditions] = useState(
-        {
-            adult: 1,
-            children: 0,
-            room: 1
-        }
-    );
+    // const [destination, setDestination] = useState("");
+
+    // const [dates, setDates] = useState([
+    //     {
+    //         startDate: new Date(),
+    //         endDate: new Date(),
+    //         key: 'selection',
+    //     }
+    // ]);
+
+    // const [conditions, setConditions] = useState(
+    //     {
+    //         adult: 1,
+    //         children: 0,
+    //         room: 1
+    //     }
+    // );
 
     return (
         <>
@@ -44,7 +51,9 @@ const HotelList = () => {
                             <div className='listItem'>
                                 <label>入住 / 退房日期 {format(dates[0].startDate, "MM/dd/yyyy")} - {format(dates[0].endDate, "MM/dd/yyyy")}</label>
                                 <span className='dates'>
-                                    <div className="searchInput" onClick={() => setOpenCalendar(!openCalendar)} >入住時間 - 退房時間</div>
+                                    <div className="searchInput" onClick={() => setOpenCalendar(!openCalendar)} >
+                                        入住時間 - 退房時間
+                                    </div>
                                     {openCalendar && <DateRange
                                         editableDateInputs={true}
                                         onChange={item => setDates([item.selection])}
@@ -57,24 +66,42 @@ const HotelList = () => {
                                 </span>
                             </div>
                             <div className='listItem'>
-                                <div className='listItemLimitPrice'>
-                                    <span className='limitTitle'>每晚最低價格</span>
+                                <div className="listItemLimitPrice">
+                                    <span className="limitTitle">
+                                        每晚最低價格
+                                    </span>
                                     <input type="text" className='searchInput' />
                                 </div>
-                                <div className='listItemLimitPrice'>
-                                    <span className='limitTitle'>每晚最高價格</span>
+                                <div className="listItemLimitPrice">
+                                    <span className="limitTitle">
+                                        每晚最高價格
+                                    </span>
                                     <input type="text" className='searchInput' />
                                 </div>
                                 <div className='listItmConditions'>
-                                    <span className='SearchText'>3位成人，2位小孩，1間房間</span>
+                                    <span className='SearchText' onClick={() => setOpenConditions(!openConditions)}>
+                                        {conditions.adult}位成人，{conditions.children}位小孩，{conditions.room}間房間
+                                    </span>
                                 </div>
                             </div>
-                            <div className='listItem'>
+                            <div className="listItem">
                                 <button className='searchbtn'>搜尋</button>
                             </div>
                         </div>
-                        <div className='listResult'>
 
+                        <div className='listResult'>
+                            <div className='resultTitle'>
+                                <h2>在台北找到505間房間</h2>
+                                <div className='map'>
+                                    <button>在地圖上顯示</button>
+                                </div>
+                            </div>
+                            <SearchItem active="active"></SearchItem>
+                            <SearchItem></SearchItem>
+                            <SearchItem></SearchItem>
+                            <SearchItem></SearchItem>
+                            <SearchItem></SearchItem>
+                            <SearchItem></SearchItem>
                         </div>
                     </div>
                 </div>

@@ -9,8 +9,11 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 import * as locales from 'react-date-range/dist/locale';
 import { DateRange } from 'react-date-range';
 import format from 'date-fns/format';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+    const navigate = useNavigate();
+
     const [destination, setDestination] = useState("");
     const [openConditions, setOpenConditions] = useState(false);
     const [openCalendar, setOpenCalendar] = useState(false);
@@ -41,6 +44,10 @@ const Header = () => {
     }
 
     console.log(destination, dates, conditions)
+
+    const handleSearchBarSubmit = () => {
+        navigate("/hotelsList", { state: { destination, dates, conditions } })
+    }
 
     return (
         <div className='header'>
@@ -127,7 +134,7 @@ const Header = () => {
                         }
 
                     </div>
-                    <button className='SearchBarBtn'>搜尋</button>
+                    <button className='SearchBarBtn' onClick={handleSearchBarSubmit}>搜尋</button>
                 </div>
             </div>
         </div>
