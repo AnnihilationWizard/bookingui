@@ -43,8 +43,6 @@ const Header = () => {
         })
     }
 
-    console.log(destination, dates, conditions)
-
     const handleSearchBarSubmit = () => {
         navigate("/hotelsList", { state: { destination, dates, conditions } })
     }
