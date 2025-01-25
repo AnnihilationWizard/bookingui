@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import "./hotelsList.scss"
 import { DateRange } from 'react-date-range'
 import { format } from 'date-fns'
-import * as locales from 'react-date-range/dist/locale';
+import * as locales from "react-date-range/dist/locale";
 import { useLocation } from 'react-router-dom'
 
 const HotelList = () => {
@@ -61,7 +61,7 @@ const HotelList = () => {
                                         className="calendar"
                                         ranges={dates}
                                         minDate={new Date()}
-                                    //locale={locales['zhTW']}
+                                        locale={locales.zhTW}
                                     />}
                                 </span>
                             </div>
