@@ -1,0 +1,7 @@
+{
+  "title" : "家庭套房 七季公寓酒店",
+  "desc"  : "兩張雙人大床 獨立衛浴",
+  "Peice" : 3600,
+  "maxPeople" : 4,
+  "roomNumbers" : [{"number":401},{"number":402}]
+}

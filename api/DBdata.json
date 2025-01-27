@@ -1,14 +1,153 @@
-{
-	"name":"七季公寓酒店",
-	"type":"飯店式公寓",
-	"city":"布達佩斯",
-	"address":"1061 布達佩斯, Király utca 8., 匈牙利",
-	"distance":"地鐵站（Deak Ferenc tér）僅 100 公尺",
-        "photos":"https://cf.bstatic.com/xdata/images/hotel/max500/40890517.jpg?k=cd55de5463af8988f78fd675904a43d02f77570debe9977c4c1fe658030b6d29&o=",
-	"title":"7Seasons Apartments Budapest（布達佩斯七季公寓酒店",
-	"desc":"預訂布達佩斯七季公寓酒店可享 Genius 折扣！只要登入，預訂此住宿即可省一筆。7Seasons Apartments 位於布達佩斯市中心，距離主要的大眾交通樞紐戴阿克‧費倫茨廣場地鐵站（Deak Ferenc tér）僅 100 公尺，設有 24 小時接待櫃台，提供寬敞的單臥室至三臥室公寓。所有公寓均提供免費無線網路。每日清潔服務和接駁服務需事先提出要求，並額外收費。所有公寓均設有廚房，可供自炊，且 7Seasons Apartments 周邊咖啡館、餐廳和 24 小時超市林立。步行即可輕鬆抵達聖伊什特萬聖殿（St. Stephen's Basilica）、菸草街會堂（The Great Synagogue）、匈牙利國家歌劇院和匈牙利國會大廈。此區為布達佩斯的人氣推薦區域（依據真實住客評語）情侶特別喜歡這個位置－並給他們的雙人旅行住宿體驗 9.7 分",
-	"rating":9.6,
-	"cheapestPrice":7903,
-	"popularHotel": true,
-	"comments":463
-}
+[
+	{
+		"name":"七季公寓酒店",
+		"type":"飯店式公寓",
+		"city":"布達佩斯",
+		"address":"1061 布達佩斯, Király utca 8., 匈牙利",
+		"distance":"地鐵站（Deak Ferenc tér）僅 100 公尺",
+					"photos":"https://cf.bstatic.com/xdata/images/hotel/max500/40890517.jpg?k=cd55de5463af8988f78fd675904a43d02f77570debe9977c4c1fe658030b6d29&o=",
+		"title":"7Seasons Apartments Budapest（布達佩斯七季公寓酒店",
+		"desc":"預訂布達佩斯七季公寓酒店可享 Genius 折扣！只要登入，預訂此住宿即可省一筆。7Seasons Apartments 位於布達佩斯市中心，距離主要的大眾交通樞紐戴阿克‧費倫茨廣場地鐵站（Deak Ferenc tér）僅 100 公尺，設有 24 小時接待櫃台，提供寬敞的單臥室至三臥室公寓。所有公寓均提供免費無線網路。每日清潔服務和接駁服務需事先提出要求，並額外收費。所有公寓均設有廚房，可供自炊，且 7Seasons Apartments 周邊咖啡館、餐廳和 24 小時超市林立。步行即可輕鬆抵達聖伊什特萬聖殿（St. Stephen's Basilica）、菸草街會堂（The Great Synagogue）、匈牙利國家歌劇院和匈牙利國會大廈。此區為布達佩斯的人氣推薦區域（依據真實住客評語）情侶特別喜歡這個位置－並給他們的雙人旅行住宿體驗 9.7 分",
+		"rating":9.6,
+		"cheapestPrice":7903,
+		"popularHotel": true,
+		"comments":463
+	},
+  {
+    "_id": "64dd7b16c9500e4529cb1ead",
+    "name": "一中宿喜",
+    "type": "飯店",
+    "city": "台中",
+    "address": "台中中區三民路二段149巷8-1號3樓-1",
+    "distance": "312",
+    "photos": [
+      "http://res.cloudinary.com/dgr5mhnbn/image/upload/v1692236192/products/l1tkjhetsmkpbo7a1twx.jpg",
+      "http://res.cloudinary.com/dgr5mhnbn/image/upload/v1692236211/products/mir1jylvx89djkubecha.jpg",
+      "http://res.cloudinary.com/dgr5mhnbn/image/upload/v1692236228/products/dslblwqoztcd5somqfmq.jpg",
+      "http://res.cloudinary.com/dgr5mhnbn/image/upload/v1692236228/products/dslblwqoztcd5somqfmq.jpg",
+      "http://res.cloudinary.com/dgr5mhnbn/image/upload/v1692236252/products/l0njzf67rddfbv8pi8gb.jpg"
+    ],
+    "title": "一中宿喜 (旅館)（臺灣台中）",
+    "desc": "Adagio Hostel 位置超讚，位於台中的中區，距離台湾美术馆 2.5 公里，距離广三SOGO百货 2.6 公里，距離逢甲夜市 6.5 公里。這間住宿距離大庆火车站約 10 公里，距離台中孔廟約 1.8 公里，距離中正公園約 1.9 公里。這間住宿距離台中火車站 1.1 公里，距離市中心 200 公尺。所有客房均提供空調、衛星頻道平面電視、冰箱、電熱水壺、淋浴設施、免費盥洗用品和書桌。 Adagio Hostel 的客房設有私人衛浴，且提供吹風機，並可使用 WiFi（免費）。部分客房有陽台。這間住宿的每間客房都有寢具和毛巾。Adagio Hostel 附近的人氣景點包括台中公園、台中市政府大樓和南天宮。最近的機場是臺中國際機場，距離 Adagio Hostel 13 公里。",
+    "rooms": [],
+    "cheapestPrice": 3222,
+    "popularHotel": true,
+    "comments": 22,
+    "__v": 0,
+    "rating": 9.8
+  },
+  {
+    "_id": "65199243940adb20767afd2f",
+    "name": "Tropical Breeze Hotel",
+    "type": "Villa",
+    "city": "嘉義市",
+    "address": "9 Mayer Terrace",
+    "distance": "905",
+    "photos": [
+      "https://source.unsplash.com/random/?hotel&82"
+    ],
+    "title": "Riverstone Resort",
+    "desc": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "rating": 0.6,
+    "rooms": [],
+    "cheapestPrice": 4790.82,
+    "popularHotel": false,
+    "comments": 81,
+    "__v": 0
+  },
+  {
+    "_id": "65199243940adb20767afd31",
+    "name": "Serenity Spa Resort",
+    "type": "豪華露營",
+    "city": "花蓮市",
+    "address": "01212 Mendota Court",
+    "distance": "95",
+    "photos": [
+      "https://source.unsplash.com/random/?hotel&15"
+    ],
+    "title": "Meadowside Manor",
+    "desc": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "rating": 6.3,
+    "rooms": [],
+    "cheapestPrice": 4149.37,
+    "popularHotel": true,
+    "comments": 5,
+    "__v": 0
+  },
+  {
+    "_id": "65199243940adb20767afd33",
+    "name": "Tropical Retreat",
+    "type": "小屋",
+    "city": "台北",
+    "address": "7 Derek Park",
+    "distance": "214",
+    "photos": [
+      "https://source.unsplash.com/random/?hotel&53"
+    ],
+    "title": "Starlight Inn",
+    "desc": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "rating": 2.6,
+    "rooms": [],
+    "cheapestPrice": 1249.9,
+    "popularHotel": true,
+    "comments": 12,
+    "__v": 0
+  },
+  {
+    "_id": "65199243940adb20767afd39",
+    "name": "Wilderness Lodge",
+    "type": "公寓",
+    "city": "花蓮市",
+    "address": "31702 La Follette Crossing",
+    "distance": "45",
+    "photos": [
+      "https://source.unsplash.com/random/?hotel&28"
+    ],
+    "title": "Golden Oak Resort",
+    "desc": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "rating": 1,
+    "rooms": [],
+    "cheapestPrice": 3524.82,
+    "popularHotel": false,
+    "comments": 1,
+    "__v": 0
+  },
+  {
+    "_id": "65199243940adb20767afd3d",
+    "name": "Crystal Cove Inn",
+    "type": "木屋",
+    "city": "花蓮市",
+    "address": "73 Nobel Junction",
+    "distance": "972",
+    "photos": [
+      "https://source.unsplash.com/random/?hotel&92"
+    ],
+    "title": "Sunflower Manor",
+    "desc": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "rating": 6.9,
+    "rooms": [],
+    "cheapestPrice": 3363.64,
+    "popularHotel": false,
+    "comments": 35,
+    "__v": 0
+  },
+  {
+    "_id": "65199243940adb20767afd3b",
+    "name": "Riverside Retreat",
+    "type": "度假村",
+    "city": "宜蘭縣",
+    "address": "5397 Raven Pass",
+    "distance": "256",
+    "photos": [
+      "https://source.unsplash.com/random/?hotel&50"
+    ],
+    "title": "Pinecrest Manor",
+    "desc": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "rating": 9.5,
+    "rooms": [],
+    "cheapestPrice": 1278.89,
+    "popularHotel": false,
+    "comments": 42,
+    "__v": 0
+  }
+]
